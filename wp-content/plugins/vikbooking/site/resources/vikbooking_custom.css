@@ -1,0 +1,6 @@
+/* This CSS file will be loaded at last. Any CSS customization should be placed here */
+
+#primary .entry-content {
+	float: none !important;
+	width: 100% !important;
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>El Mirador</title>
+	<atom:link href="/https://ispipa.github.io/wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://ispipa.github.io/wordpress</link>
+	<description>Otro sitio realizado con WordPress</description>
+	<lastBuildDate>Sun, 20 Feb 2022 20:25:32 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9</generator>
+	<item>
+		<title>Pago</title>
+		<link>/https://ispipa.github.io/wordpress/2022/02/20/pago/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 20 Feb 2022 16:50:14 +0000</pubDate>
+				<category><![CDATA[Compra]]></category>
+		<guid isPermaLink="false">/https://ispipa.github.io/wordpress/?p=1</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-asp-post-grid wp-asp-grid">
+	<form id="wp-asp-search-form" method="GET">
+	<div class="wp-asp-listing-search-field">
+		<input type="text" class="wp-asp-search-input" name="asp_search" value="" placeholder="Búsqueda ...">
+	<button type="submit" class="wp-asp-search-button" value="Búsqueda" title="Búsqueda"><span class="dashicons dashicons-search"></button>
+	</div>
+</form>
+<div class="wp-asp-search-res-text">
+	
+</div>
+
+	<div id="wp-asp-members-list">
+		<div class="wp-asp-grid-row"><div class="wp-asp-grid-item wp-asp-product-id-497">
+	<div class="wp-asp-product-thumb"><img src="/https://ispipa.github.io/wordpress/wp-content/plugins/stripe-payments/assets/product-thumb-placeholder.png"></div>
+	<div class="wp-asp-product-price">€150.00</div>
+	<div class="wp-asp-product-name">El Mirador</div>
+	<div class="wp-asp-view-product-btn"><a href="/https://ispipa.github.io/wordpress/asp-products/el-mirador/" class="wp-asp-view-product-lnk"><button>Ver el artículo</button></a></div>
+</div>
+</div>
+	</div>
+	
+</div>
+
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

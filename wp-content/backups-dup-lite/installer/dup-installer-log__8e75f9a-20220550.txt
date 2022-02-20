@@ -1,0 +1,771 @@
+[PHP ERR][ISSUE] MSG:Return type of IgnorantRecursiveDirectoryIterator::getChildren() should either be compatible with RecursiveDirectoryIterator::getChildren(): RecursiveDirectoryIterator, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice [CODE:8192|FILE:C:\xampp\htdocs\Wordpress2\dup-installer\ctrls\classes\class.ctrl.extraction.php|LINE:595]
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 10:11:35
+* VERSION: 1.4.4
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 8.1.2                                 |8.1.2
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2022-02-20 22:05:50
+WP VERSION__________: 5.9
+DUP VERSION_________: 1.4.4
+DB__________________: 10.4.22
+DB TABLES___________: 69
+DB ROWS_____________: 13,035
+DB FILE SIZE________: 28.45MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 8.1.2 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.2
+DOC ROOT____________: "C:/xampp/htdocs/Wordpress2"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/Wordpress2/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/Wordpress2/El_Mirador_[HASH]_20220220220550_archive.zip"
+SIZE________________: 83.84MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/Wordpress2/El_Mirador_[HASH]_20220220220550_archive.zip"
+SIZE________________: 83.84MBFile timestamp set to Current: 2022-02-20 22:12:00
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 10:12:00 - RUNTIME: 24.1943 sec.
+[PHP ERR][ISSUE] MSG:Implicit conversion from float 3349.42 to int loses precision [CODE:8192|FILE:C:\xampp\htdocs\Wordpress2\dup-installer\classes\class.csrf.php|LINE:113]
+[PHP ERR][ISSUE] MSG:Implicit conversion from float 5011.17 to int loses precision [CODE:8192|FILE:C:\xampp\htdocs\Wordpress2\dup-installer\classes\class.csrf.php|LINE:113]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:13:43
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.22 -- Build Server: 10.4.22
+FILE SIZE:	dup-database__[HASH].sql (18.1MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/Wordpress2/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	607
+
+wp_actionscheduler_actions: (11)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (2)
+wp_actionscheduler_logs: (25)
+wp_commentmeta: (2)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_mphb_api_keys: (0)
+wp_mphb_customers: (0)
+wp_mphb_customers_meta: (0)
+wp_mphb_sync_logs: (0)
+wp_mphb_sync_queue: (0)
+wp_mphb_sync_stats: (0)
+wp_mphb_sync_urls: (0)
+wp_options: (312)
+wp_postmeta: (1534)
+wp_posts: (193)
+wp_simply_static_pages: (11053)
+wp_term_relationships: (17)
+wp_term_taxonomy: (6)
+wp_termmeta: (3)
+wp_terms: (6)
+wp_usermeta: (23)
+wp_users: (1)
+wp_vikappointments_lang_media: (0)
+wp_vikappointments_media: (0)
+wp_vikbooking_adultsdiff: (0)
+wp_vikbooking_busy: (0)
+wp_vikbooking_calendars_xref: (0)
+wp_vikbooking_categories: (0)
+wp_vikbooking_characteristics: (7)
+wp_vikbooking_condtexts: (0)
+wp_vikbooking_config: (71)
+wp_vikbooking_countries: (247)
+wp_vikbooking_coupons: (0)
+wp_vikbooking_critical_dates: (0)
+wp_vikbooking_cronjobs: (0)
+wp_vikbooking_custfields: (13)
+wp_vikbooking_customers: (0)
+wp_vikbooking_customers_orders: (0)
+wp_vikbooking_dispcost: (60)
+wp_vikbooking_einvoicing_config: (0)
+wp_vikbooking_einvoicing_data: (0)
+wp_vikbooking_fests_dates: (0)
+wp_vikbooking_gpayments: (3)
+wp_vikbooking_greview_service: (0)
+wp_vikbooking_invoices: (0)
+wp_vikbooking_iva: (1)
+wp_vikbooking_operators: (0)
+wp_vikbooking_optionals: (0)
+wp_vikbooking_orderhistory: (0)
+wp_vikbooking_orders: (0)
+wp_vikbooking_ordersbusy: (0)
+wp_vikbooking_ordersrooms: (0)
+wp_vikbooking_packages: (0)
+wp_vikbooking_packages_rooms: (0)
+wp_vikbooking_prices: (2)
+wp_vikbooking_receipts: (0)
+wp_vikbooking_restrictions: (0)
+wp_vikbooking_rooms: (1)
+wp_vikbooking_seasons: (0)
+wp_vikbooking_texts: (12)
+wp_vikbooking_tmplock: (0)
+wp_vikbooking_tracking_infos: (0)
+wp_vikbooking_trackings: (0)
+wp_vikbooking_translations: (0)
+wp_vikbooking_wpshortcodes: (0)
+wp_wpforms_tasks_meta: (4)
+Removed '83' cache/transient rows
+
+INSERT DATA RUNTIME: 2.6010 sec.
+STEP-2 COMPLETE @ 10:13:45 - RUNTIME: 2.6407 sec.
+[PHP ERR][ISSUE] MSG:Implicit conversion from float 7666.78 to int loses precision [CODE:8192|FILE:C:\xampp\htdocs\Wordpress2\dup-installer\classes\class.csrf.php|LINE:113]
+[PHP ERR][ISSUE] MSG:Implicit conversion from float 7740.860000000001 to int loses precision [CODE:8192|FILE:C:\xampp\htdocs\Wordpress2\dup-installer\classes\class.csrf.php|LINE:113]
+[PHP ERR][ISSUE] MSG:Constant FILTER_SANITIZE_STRING is deprecated [CODE:8192|FILE:C:\xampp\htdocs\Wordpress2\dup-installer\classes\class.s3.func.php|LINE:214]
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:13:56
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "El Mirador"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/wp/wordpress"
+path_new______________: "C:/xampp/htdocs/Wordpress2"
+siteurl_______________: "http://localhost/Wordpress2"
+url_old_______________: "http://localhost/wp/wordpress"
+url_new_______________: "http://localhost/Wordpress2"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_api_keys"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_customers"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_customers_meta"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_sync_logs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_sync_queue"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_sync_stats"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mphb_sync_urls"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   312][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1534][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   193][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_simply_static_pages"__________________________[ROWS: 11053][PG:   4][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikappointments_lang_media"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikappointments_media"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_adultsdiff"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_busy"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_calendars_xref"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_categories"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_characteristics"___________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikbooking_condtexts"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_config"____________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikbooking_countries"_________________________[ROWS:   247][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikbooking_coupons"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_critical_dates"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_cronjobs"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_custfields"________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikbooking_customers"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_customers_orders"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_dispcost"__________________________[ROWS:    60][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikbooking_einvoicing_config"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_einvoicing_data"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_fests_dates"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_gpayments"_________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikbooking_greview_service"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_invoices"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_iva"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikbooking_operators"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_optionals"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_orderhistory"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_orders"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_ordersbusy"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_ordersrooms"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_packages_rooms"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_prices"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikbooking_receipts"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_restrictions"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_rooms"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikbooking_seasons"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_texts"_____________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+
+EVALUATE TABLE: "wp_vikbooking_tmplock"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_tracking_infos"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_trackings"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_translations"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_vikbooking_wpshortcodes"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wp/wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  2:"C:\/xampp\/htdocs\/wp\/wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwp%2Fwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  4:"C:\xampp\htdocs\wp\wordpress" ====================> "C:/xampp/htdocs/Wordpress2"
+	SEARCH  5:"C:\\xampp\\htdocs\\wp\\wordpress" ================> "C:\/xampp\/htdocs\/Wordpress2"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwp%5Cwordpress" ==========> "C%3A%2Fxampp%2Fhtdocs%2FWordpress2"
+	SEARCH  7:"//localhost/wp/wordpress" ========================> "//localhost/Wordpress2"
+	SEARCH  8:"\/\/localhost\/wp\/wordpress" ====================> "\/\/localhost\/Wordpress2"
+	SEARCH  9:"%2F%2Flocalhost%2Fwp%2Fwordpress" ================> "%2F%2Flocalhost%2FWordpress2"
+	SEARCH 10:"https://localhost/Wordpress2" ====================> "http://localhost/Wordpress2"
+	SEARCH 11:"https:\/\/localhost\/Wordpress2" =================> "http:\/\/localhost\/Wordpress2"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2FWordpress2" ============> "http%3A%2F%2Flocalhost%2FWordpress2"
+--------------------------------------
+SCANNED:	Tables:69 	|	 Rows:13610 	|	 Cells:202389 
+UPDATED:	Tables:5 	|	 Rows:11350 	|	 Cells:11423 
+ERRORS:		0 
+RUNTIME:	2.774700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:13:59 - RUNTIME: 2.8704 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
